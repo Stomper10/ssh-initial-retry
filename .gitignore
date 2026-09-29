@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
+
+# Local SSH material must never be included.
+.ssh/
+config
+config.backup.*
+config.before-initial-retry.*
+known_hosts*
+authorized_keys*
+id_rsa*
+id_ed25519*
+id_ecdsa*
+*.pem
+*.key
+*.log
+*.pcap
+*.pcapng
+.env
+.env.*
